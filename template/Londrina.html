@@ -1,0 +1,88 @@
+
+
+
+{% extends "base.html" %}
+{% block title %}Londrina Front-end{% endblock %}
+
+    {% block content %}
+	<div class="conteudo">
+
+		<h1>Alguns lugares da cidade de Londrina</h1>
+
+		<div class="lugar">
+			<h2>Lago Igapo</h2>
+			<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Lago_Igap%C3%B3.JPG/800px-Lago_Igap%C3%B3.JPG" alt="foto do lago igapo 1">
+			<p>O lago Igapó é um lago criado em 10 de dezembro de 1959, dia do Jubileu de Prata da cidade, através do represamento do Ribeirão Cambezinho, na gestão de Antônio Sobrinho e coordenado pelo engenheiro Cássio Bittencourt Macedo como uma solução para a questão da baixa umidade do ar e o problema da drenagem, dificultada por uma barragem natural de pedra. Inicialmente pensou-se em dinamitar a barragem, mas prevaleceu a ideia de formar um lago.</p>
+            <p>O nome Igapó vem da língua tupi, que significa transvazamento de rios. O projeto de urbanização do lago foi feito em 1970, quando se iniciou a construção de calçadas e a plantação de árvores ao redor do lago.</p>
+		</div>
+
+		<div class="lugar">
+			<p>Jardim Botanico</p>
+			<img src="https://mid.curitiba.pr.gov.br/2021/00310996.jpg">
+			<p>O residencial Jardim Botânico se espalha pelo Jardim Botânico de Curitiba, com uma estufa tropical de 3 cúpulas, uma área arborizada com trilhas e um jardim sensorial. O time de futebol local do Paraná Clube joga no Estádio Vila Capanema. Bares descontraídos que servem lanches locais são lotados por estudantes da Universidade Federal do Paraná, enquanto restaurantes italianos e lanchonetes estão espalhados pela Av. Prefeito Omar Sabba</p>
+		</div>
+
+		<div class="lugar">
+			<p>Rodoviária de Londrina</p>
+			<img src="https://i2.wp.com/blog.londrina.pr.gov.br/wp-content/uploads/2020/02-fevereiro/20-02-20/rodoviaria-ARQUIVO-P.jpg?resize=770%2C400&ssl=1">
+			<p>Atualmente a Rodoviária de Londrina José Garcia Villar é considerada uma das mais funcionais e belas rodoviárias do Brasil.</p>
+		</div>
+
+	</div>
+
+	<div class="rodape">
+		<p>Rodape</p>
+	</div>
+<style>
+
+    
+* {
+	margin: 0;
+}
+
+nav {
+	text-align: center;
+	background-color:  white;
+	padding: 15px;
+}
+
+nav a {
+	margin-right: 10px;
+}
+
+body {
+	background-color: gray;
+	background-image: url("imgs/noise.png");
+}
+
+.conteudo {
+	background-color: white;
+	margin: 25px 10%;
+}
+
+.rodape {
+	background-color: white;
+	text-align: center;
+	padding: 10px;
+}
+
+.lugar {
+	height: 330px;
+	background-color: white;
+	margin-bottom: 15px;
+}
+
+.lugar img {
+	max-width: 300px;
+    max-height: 300px;
+    float: left;
+}
+</style>
+    
+</body>
+</html>
+    {%endblock %}
+    
+
+
+	

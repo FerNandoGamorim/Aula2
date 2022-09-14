@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}{% endblock %}</title>
+</head>
+<body>
+    <nav>
+		<a href="{% url 'pages:londrina' %}">Londrina</a>
+	  	<a href="{% url 'pages:calculadora' %}">Calculadora</a>
+	  	<a href="{% url 'pages:index' %}">Help</a>
+	  	<a href="/Testes/">Testes</a>
+	</nav>
+
+    {% block content %}
+
+    {% endblock %}
+    
+<footer>
+    <div class="rodape">
+		<p>Rodape</p>
+	</div>
+</footer>
+
+</body>
+</html>

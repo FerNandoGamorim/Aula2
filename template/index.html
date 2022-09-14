@@ -1,0 +1,17 @@
+
+
+{% extends "base.html" %}
+{% block title %}index Front-end{% endblock %}
+
+    {% block content %}
+    <div class="container">
+        <form method="POST">
+            {{ form.as_p }}
+            {% csrf_token %}
+            <input type="submit" class="btn-primary" value="submit">
+        </form>
+    
+    </div>
+    
+
+    {%endblock %}
