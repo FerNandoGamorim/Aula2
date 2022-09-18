@@ -15,7 +15,7 @@ def index(request):
     return render(request,"index.html")
 
 def londrina(request):
-    return render(request,"londrina.html")  
+    return render(request,"Londrina.html")  
 
 def calculadora(request):
     return render(request,"calculadora.html")      
