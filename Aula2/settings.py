@@ -30,7 +30,7 @@ DEBUG = True
 # Application definition
 ALLOWED_HOSTS = [
     '127.0.0.1',
-    ''
+    'fergamorim.pythonanywhere.com'
 ]
 
 INSTALLED_APPS = [
