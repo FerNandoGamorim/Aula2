@@ -8,7 +8,7 @@ app_name = 'pages'
 
 urlpatterns =[
 #    path('', views.HomePageView.as_view(), name='home' ),
-    path('', views.index, name="index"),
-    path('londrina/', views.londrina, name="londrina"),
+    #path('', views.index, name="index"),
+    path('', views.londrina, name="londrina"),
     path('calculadora/', views.calculadora, name="calculadora"),
 ]+ static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
